@@ -22,7 +22,7 @@ const myKeypairSigner = createSignerFromKeypair(umi,keypair); //Creates a signer
 umi.use(signerIdentity(myKeypairSigner)); //Sets the signer identity in UMI to the created signer.
 
 // Define Mint address
-const mint = new PublicKey("A9Jwz92Vfbe9ejNJsEL4REhMkSFV6J3pSHLy8YnhYZjP")
+const mint = new PublicKey("CQhE1ys2vPmcJRGey74RMzycj8Myf4LvswWN1mJELsGZ")
 
 // Add the Token Metadata Program
 const token_metadata_program_id = new PublicKey('metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s')
